@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.color-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+font-size: 18px;
+font-weight: 500;
+  flex-shrink: 0;
+  padding: 15px 35px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  border: transparent;
+}
+/* Style section */
+h3 {
+  color: #181818;
+  font-family: open sans;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav  li{
+list-style: none;
+margin-left: 35px;
+}
+nav  li a{
+  text-decoration: none;
+
+}
+nav > ul{
+ 
+  display: flex;
+align-items: center;
+}
